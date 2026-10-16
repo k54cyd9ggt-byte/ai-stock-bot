@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run AI trading bot
-        run: python bot.py
+        run: python bot.py paper
       - name: Save trading results
         run: |
           git config user.name 'github-actions[bot]'
