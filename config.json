@@ -1,0 +1,12 @@
+{
+  "initial_cash_jpy": 1000000,
+  "symbols": ["7203.T", "7974.T", "AAPL", "MSFT", "NVDA"],
+  "lookback_years": 4,
+  "training_days": 252,
+  "min_probability": 0.57,
+  "max_position_weight": 0.20,
+  "max_total_exposure": 0.80,
+  "fee_bps": 10,
+  "max_drawdown": 0.15,
+  "max_daily_loss": 0.05
+}
